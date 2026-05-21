@@ -46,7 +46,7 @@ Le système offre une interface moderne et intuitive pour les clients, les caiss
 ##  Technologies utilisées
 - **Back-End** : PHP (Programmation Orientée Objet, MVC)
 - **Base de données** : MySQL
-- **Front-End** : Bootstrap 5 / Tailwind CSS, JavaScript, Ajax
+- **Front-End** : Bootstrap 5 , JavaScript, jquery
 - **PDF** : FPDF pour la génération des billets
 - **Sécurité** : Sessions PHP, requêtes préparées (PDO), `.gitignore` pour protéger les fichiers sensibles
 
