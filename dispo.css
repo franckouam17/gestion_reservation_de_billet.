@@ -1,0 +1,113 @@
+.bus {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 60px 50px 50px 30px 50px 50px;
+  gap: 5px;
+  justify-content: center;
+}
+
+/* 🚍 chauffeur */
+.driver {
+  background: #222;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 💺 sièges */
+.seat {
+  height: 40px;
+  background: #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.seat:hover {
+  transform: scale(1.1);
+}
+
+/* 🚶 couloir */
+.aisle {
+  width: 30px;
+}
+
+/* 🚪 porte */
+.door {
+  background: #444;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* vide près chauffeur */
+.empty {
+  background: transparent;
+}
+
+/* états */
+.seat.selected { background: green; color: white; }
+.seat.occupied { background: red; color: white; cursor: not-allowed; }.row {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 30px 50px 50px;
+  gap: 5px;
+}
+
+/* dernière ligne sans couloir */
+.row:last-child {
+  grid-template-columns: 60px 60px 56px 56px 56px;
+}
+.box {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+.box.free { background: #e0e0e0; }
+.box.selected { background: green;  }
+.box.occupied { background: red;  }
+.bus-header {
+  text-align: center;
+  font-family: Arial;
+}
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin: 2px;
+  background: #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.seat.selected {
+  background: green;
+  color: white;
+}
+
+.seat:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}

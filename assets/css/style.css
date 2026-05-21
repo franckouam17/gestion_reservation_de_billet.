@@ -1,0 +1,50 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #0f172a; /* couleur de secours */
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.card-header {
+    border-radius: 12px 12px 0 0 !important;
+  background-color: #0f172a; /* couleur de secours */
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+}
+
+.nav-link {
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 8px 14px !important;
+}
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    color: #ffc107 !important;
+}
+.navbar-custom {
+    background: linear-gradient(90deg, #0f172a, #1e293b);
+}
+.nav-link.active {
+    background: #ffc107;
+    color: black !important;
+}
