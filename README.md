@@ -63,4 +63,4 @@ Le système offre une interface moderne et intuitive pour les clients, les caiss
 ##  Installation
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/franckouam17/gestion_reservation_de_billet
+   git clone https://github.com/franckouam17/gestion_reservation_de_billet.
